@@ -55,6 +55,8 @@ header li {
     align-items: center;
     margin: 0 auto;
     margin-bottom: 80px;
+    position: relative;
+    top: 69px;
 }
 
 .banner 
