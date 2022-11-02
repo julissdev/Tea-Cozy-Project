@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2, h3 {
+    font-size: larger;
+}
+
+h5 {
+    font-size: small;
+}
+
+p {
+    font-size: smaller;
+}
+
+/* Header */
+
+.logo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+header {
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+header li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+/* Banner */
+
+.banner {
+    display: flex;
+    background-image: url('../Resources/img-mission-background.jpg');
+    height: 700px;
+    width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.banner 
+h2, h4 {
+    width: 1200px;
+    margin: 10px auto;
+}
+
+/* Tea Section */
+
+.tea {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.tea 
+h2, h4 {
+    width: 1000px;
+}
+
+.tea h4 {
+    margin-bottom: 30px;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.top img {
+    height: 200px;
+    width: 300px;
+}
+
+.top figcaption {
+    font-weight: bold;
+    margin: 10px 0 20px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom img {
+    height: 200px;
+    width: 300px;
+    margin: 0 25px;
+}
+
+.bottom figcaption {
+    font-weight: bold;
+    margin: 10px 0 20px;
+}
+
+/* Locations section */
+
+.squares {
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url(../Resources/img-locations-background.jpg);
+    background-position: center top;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center;
+}
+
+.squares h2 {
+    width: 1200px;
+    height: 30px;
+    background-color: transparent;
+}
+
+.downtown, 
+.bayside, 
+.oak    {
+    width: 300px;
+    height: 300px;
+    margin: 15px 20px;
+    opacity: 1;  
+}
+
+.squares h3, p {
+    padding: 23px 0;
+}
+
+/* Contact info */
+
+.contact {
+    height: 200px;
+    margin: 0 auto;
+}
+
+.contact h2, h5 {
+        padding: 20px 0;
+}
+
+
+footer h5 {
+    text-align: left;
+    margin-left: 20px;
+}
